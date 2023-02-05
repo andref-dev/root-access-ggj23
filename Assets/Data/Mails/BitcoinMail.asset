@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9cc6039265f4903b435ae38e257fb1, type: 3}
+  m_Name: BitcoinMail
+  m_EditorClassIdentifier: 
+  FromAddress: rob.cal@maf.ia
+  FromUser: Roberto Calzone
+  Title: A crypto-friend in need
+  Body: Hey there USER,<br> <br> I had a very eccentric uncle with a lot of spare
+    cash. One of his hobbies was investing in crypto coins. He passed away recently
+    in a mysterious way.  Now that he won't need it anymore, can you help me locate
+    his crypto wallet? I'll definitely put the money to good use.<br> <br> I'm counting
+    on you!<br>
+  MissionIndex: 2
+  RewardImage: {fileID: 21300000, guid: 85ea7ca0c2a4e4518b79598566123385, type: 3}

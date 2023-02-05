@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1e688e3b8da4fdf97f99354945d5b2, type: 3}
+  m_Name: ImageData
+  m_EditorClassIdentifier: 
+  Images:
+  - Name: IMG00356.png
+    Image: {fileID: 21300000, guid: 711028374a7be4492a87af7de49956da, type: 3}
+    CustomIcon: 0
+  - Name: IMG000540.png
+    Image: {fileID: 21300000, guid: 36c6cef02907948fea2750a1f9cb09e0, type: 3}
+    CustomIcon: 2
+  - Name: IMG000357.png
+    Image: {fileID: 21300000, guid: 58ad7dc7925834ad090efe9ba261b223, type: 3}
+    CustomIcon: 0
+  - Name: good_friend.png
+    Image: {fileID: 21300000, guid: 18383ba16b04f4734a2d9913c128a40c, type: 3}
+    CustomIcon: 0
+  - Name: IMG000100.png
+    Image: {fileID: 21300000, guid: f1ca83c8387c845ec99bd95045ec0643, type: 3}
+    CustomIcon: 1
+  - Name: IMG000498.png
+    Image: {fileID: 21300000, guid: 87afc0385dd5f4030a37773d0124c6f4, type: 3}
+    CustomIcon: 0
+  - Name: IMG001003.png
+    Image: {fileID: 21300000, guid: 5a941c6f41f644cc08e1cd51641b592e, type: 3}
+    CustomIcon: 0
+  - Name: IMG000420.png
+    Image: {fileID: 21300000, guid: ad799ba92a37e4d9994e46cc3247dafb, type: 3}
+    CustomIcon: 0
+  - Name: sukafu[2014].png
+    Image: {fileID: 21300000, guid: 214cba263f5ab43c889b122875e4a656, type: 3}
+    CustomIcon: 0
+  - Name: deep_toughts.jpg
+    Image: {fileID: 21300000, guid: 4138b531c33d04e519535074d1546648, type: 3}
+    CustomIcon: 0
+  Sounds:
+  - Name: Akina_theme.mp3
+    Sound: {fileID: 8300000, guid: cd8c903b2ce5c4b50a5b1d483421092f, type: 3}
+    CustomIcon: 0
+  - Name: Plasma_Invaders_OST.mp3
+    Sound: {fileID: 8300000, guid: 7484cbbae6e814b37be04d5159e4585d, type: 3}
+    CustomIcon: 0
+  - Name: 1.mp3
+    Sound: {fileID: 8300000, guid: 7cd5c96a78b7143e8809d36af52c3a16, type: 3}
+    CustomIcon: 1
+  - Name: Brazil_on_the_run.mp3
+    Sound: {fileID: 8300000, guid: 15c881ab274cd4643a0fbb9266b5dd3b, type: 3}
+    CustomIcon: 0
+  - Name: beezness.mp3
+    Sound: {fileID: 8300000, guid: 519a18629beff45eb9cf79ee191da758, type: 3}
+    CustomIcon: 0
