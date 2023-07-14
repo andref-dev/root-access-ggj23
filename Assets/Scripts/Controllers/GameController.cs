@@ -66,13 +66,9 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        UserName = "";
         WantedLevel = 0;
         MissionHearts = 0;
-        //Started = true;
-        WindowController.Instance.DisableSideButtons();
-        WindowController.Instance.ShowingIniciar = true;
-        Started = true;
-        LoginWindow.SetActive(true);
 
         MailController.Instance.MailsData.Add(new LocalMail
         {
@@ -89,6 +85,16 @@ public class GameController : MonoBehaviour
             Completed = false
         });
         NewMail.SetActive(true);
+
+        Logout();
+    }
+
+    public void Logout()
+    {
+        WindowController.Instance.DisableSideButtons();
+        WindowController.Instance.ShowingIniciar = true;
+        Started = true;
+        LoginWindow.SetActive(true);
     }
 
     // Update is called once per frame
@@ -179,7 +185,7 @@ public class GameController : MonoBehaviour
 
     }
 
-    public void SetUser()
+    public void Login()
     {
         if (UserInput.text == "")
         {
@@ -193,6 +199,6 @@ public class GameController : MonoBehaviour
         WindowController.Instance.EnableSideButtons();
         WindowController.Instance.ShowingIniciar = false;
         Started = true;
-        Destroy(LoginWindow);
+        LoginWindow.SetActive(false);
     }
 }

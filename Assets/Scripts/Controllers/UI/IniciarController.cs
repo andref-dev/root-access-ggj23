@@ -37,7 +37,10 @@ public class IniciarController : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // Logout user
+        WindowController.Instance.HideIniciar();
+        GameController.Instance.Logout();
+
     }
 
     public void QuitGame()
